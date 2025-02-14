@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.3;
+  color: #fff;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+img,
+i {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.button {
+  padding: 6px 40px;
+  border-radius: 5px;
+  outline: none;
+  background: transparent;
+  opacity: 70%;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Niconne', cursive;
+  color: #c69963;
+}
+
+html {
+  scroll-behavior: smooth;
+}
