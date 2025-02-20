@@ -1,5 +1,6 @@
 <template>
   <section class="footer">
+  
             <div class="footer__container">
                 <h2>&copy; Panaderia 2024</h2>
             </div>

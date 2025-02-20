@@ -1,70 +1,41 @@
 <template>
-  <div>
-      
-    <section class="home__welcome">
-                <div class="welcome--content">
-                  <h1>Panadería y pasteleria</h1>
-                    <h1 >D' AMY</h1>
-                    <h3>¡Productos preparados como nunca antes los habías visto!</h3>
-                    <div class="welcome--buttons">
-                        <button class="button-welcome button">Promociones</button>
-                        <button class="button-welcome button">Has un pedido</button>
-                    </div>
-                </div>
-    </section>
-  </div>
+  <section class="relative w-full h-screen overflow-hidden">
+    <!-- Background Video -->
+    <video 
+      class="absolute top-0 left-0 w-full h-full object-cover"
+      autoplay 
+      loop 
+      muted 
+      playsinline
+    >
+      <source src="/videos/background.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Overlay -->
+    <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40"></div>
+
+    <!-- Content -->
+    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
+      <h1 class="text-5xl font-bold mb-4 drop-shadow-lg">
+        Freshly Baked Every Day
+      </h1>
+      <p class="text-lg mb-6">
+        Experience the taste of homemade perfection.
+      </p>
+      <button class="bg-[#D9A273] text-white px-6 py-3 rounded-lg text-lg hover:bg-[#A45A3D] transition">
+        Explore Our Menu
+      </button>
+    </div>
+  </section>
 </template>
 
 <script lang="ts" setup>
+
 
 </script>
 
 <style>
 
-.home__welcome {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  z-index: 3;
-}
 
-.home__welcome .welcome--content {
-  text-align: center;
-}
-
-.home__welcome .welcome--content h3 {
-  padding-top: 5px;
-  opacity: 70%;
-}
-
-.home__welcome .welcome--content .welcome--buttons {
-  padding-top: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.home__welcome .welcome--content .welcome--buttons .button {
-  color: #fff;
-  border: 1px solid #c69963;
-}
 </style>
