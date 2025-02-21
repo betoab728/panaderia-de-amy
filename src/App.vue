@@ -8,10 +8,8 @@ import Hero from './components/Hero.vue'
 </script>
 
 <template>
-
-         <Navbar />
-
-         <Hero />
+    <Navbar />
+    <Hero />
                 
 </template>
 

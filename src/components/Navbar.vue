@@ -1,24 +1,24 @@
 <template>
-    <nav class="bg-vanilla text-cinnamon shadow-md">
+    <nav class="absolute top-0 left-0 w-full z-50 bg-transparent">
       <div class="container mx-auto px-4 py-3 flex justify-between items-center">
         <!-- Logo -->
-        <div class="text-2xl font-bold">
-          <span class="text-honey">D' AMY</span> Bakery
-        </div>
+       <div>
+          <img src="/images/logodeamy.png" alt="Logo" class="w-40">
+       </div>
   
         <!-- Navigation Links -->
         <ul class="hidden md:flex space-x-6 text-lg font-medium">
           <li>
-            <a href="#" class="hover:text-caramel transition">Home</a>
+            <a href="#" class="hover:text-caramel transition">INICIO</a>
           </li>
           <li>
-            <a href="#" class="hover:text-caramel transition">Products</a>
+            <a href="#" class="hover:text-caramel transition">PRODUCTOS</a>
           </li>
           <li>
-            <a href="#" class="hover:text-caramel transition">About</a>
+            <a href="#" class="hover:text-caramel transition">NOSOTROS</a>
           </li>
           <li>
-            <a href="#" class="hover:text-caramel transition">Contact</a>
+            <a href="#" class="hover:text-caramel transition">CONTACTO</a>
           </li>
         </ul>
   
