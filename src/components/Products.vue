@@ -1,31 +1,45 @@
 <template>
   <section class="menu" id="menu">
+  
             <img src="/images/budin.jpg" alt="">
             <div class="content">
                 <h3>S/.9.99</h3>
                 <h2>Budin especial</h2>
-                <button class="button--menu button">detalles</button>
+                <button class="button--menu button">información</button>
             </div>
             <img src="/images/tortas.jpg" alt="">
             <div class="content">
                 <h3>S/.9.99</h3>
                 <h2>Tortas y Cup Cake</h2>
-                <button class="button--menu button">detalles</button>
+                <button class="button--menu button">información</button>
             </div>
             <img src="/images/panetones.jpg" alt="">
             <div class="content">
                 <h3>S/.9.99</h3>
                 <h2>Panetones especiales</h2>
-                <button class="button--menu button">detalles</button>
+                <button class="button--menu button">información</button>
             </div>
             <img src="/images/panes.jpg" alt="">
             <div class="content">
                 <h3>S/.9.99</h3>
                 <h2>Panes integrales</h2>
-                <button class="button--menu button">detalles</button>
+                <button class="button--menu button">información</button>
             </div>
-           
+              <img src="/images/panes.jpg" alt="">
+            <div class="content">
+                <h3>S/.9.99</h3>
+                <h2>Panes integrales</h2>
+                <button class="button--menu button">información</button>
+            </div>
+             <img src="/images/tortas.jpg" alt="">
+            <div class="content">
+                <h3>S/.9.99</h3>
+                <h2>Tortas y Cup Cake</h2>
+                <button class="button--menu button">información</button>
+            </div>
             
+            
+           
   </section>
 </template>
 

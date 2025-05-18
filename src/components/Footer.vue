@@ -2,7 +2,7 @@
   <section class="footer">
   
             <div class="footer__container">
-                <h2>&copy; Panaderia 2024</h2>
+                <h2>&copy; Panaderia D'Amy 2024</h2>
             </div>
   </section>
 </template>

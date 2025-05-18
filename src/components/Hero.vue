@@ -20,10 +20,10 @@
     <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
    
       <h1 class="text-5xl font-bold mb-4 drop-shadow-lg">
-        Freshly Baked Every Day
+       Panaderia y pasteleria D' Amy
       </h1>
       <p class="text-lg mb-6">
-        Experience the taste of homemade perfection.
+        Despierta tus sentidos con el aroma del pan recién hecho.
       </p>
       <button class="bg-[#D9A273] text-white px-6 py-3 rounded-lg text-lg hover:bg-[#A45A3D] transition">
         Disfruta nuestro Menu
