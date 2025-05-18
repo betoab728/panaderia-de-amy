@@ -61,6 +61,7 @@ const sendEmail = () => {
   padding: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  color: black;
 }
 .order--form button {
   padding: 15px;
